@@ -1,0 +1,38 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+.alert {
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+}
+
+.alert.success {
+  background-color: #04AA6D;
+}
+
+.alert.warning {
+  background-color: #ff9800;
+}
+
+.alert.danger {
+  background-color: #f44336;;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
